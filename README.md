@@ -50,3 +50,36 @@ To monitor the script's real-time activity and verify synchronization cycles:
 sudo xui-sync logs
 ```
 Press Ctrl + C to exit the log stream.
+
+
+Set Sync Interval
+By default, the sync cycle runs every 25 seconds. You can adjust this interval as needed (value in seconds):
+
+```bash
+sudo xui-sync set-interval 60
+```
+
+Start, Stop, and Restart Service
+To start the service manually:
+
+```bash
+sudo xui-sync start
+sudo xui-sync stop
+sudo xui-sync restart
+```
+
+
+
+Uninstallation
+To remove the script and service completely:
+
+```bash
+sudo xui-sync uninstall
+```
+
+
+
+
+
+
+
