@@ -1,7 +1,9 @@
 #!/bin/bash
-  
+
 # --- Installation Script Settings ---
-REPO_URL="https://raw.githubusercontent.com/Amirtrs/Multi_protocol_TX-ui/main"
+# REPLACE THESE WITH YOUR GITHUB USERNAME AND REPO NAME
+# Example: https://raw.githubusercontent.com/your-username/your-repo/main
+REPO_URL="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main" 
 INSTALL_DIR="/opt/xui_sync_script"
 SERVICE_NAME="xui-subid-sync"
 PYTHON_SCRIPT="sync_xui_traffic.py"
