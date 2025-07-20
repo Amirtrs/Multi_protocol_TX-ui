@@ -40,7 +40,7 @@ After installation, you can manage the service using the `xui-sync` command. Sin
 To check whether the sync service is active and running properly:
 
 ```bash
-sudo xui-sync status
+sudo bash /opt/xui_sync_script/install.sh status
 ```
 
 
@@ -48,7 +48,7 @@ View Live Logs
 To monitor the script's real-time activity and verify synchronization cycles:
 
 ```bash
-sudo xui-sync logs
+sudo bash /opt/xui_sync_script/install.sh logs
 ```
 Press Ctrl + C to exit the log stream.
 
@@ -57,16 +57,16 @@ Set Sync Interval
 By default, the sync cycle runs every 25 seconds. You can adjust this interval as needed (value in seconds):
 
 ```bash
-sudo xui-sync set-interval 60
+sudo bash /opt/xui_sync_script/install.sh set-interval 60
 ```
 
 Start, Stop, and Restart Service
 To start the service manually:
 
 ```bash
-sudo xui-sync start
-sudo xui-sync stop
-sudo xui-sync restart
+sudo bash /opt/xui_sync_script/install.sh start
+sudo bash /opt/xui_sync_script/install.sh stop
+sudo bash /opt/xui_sync_script/install.sh restart
 ```
 
 
@@ -75,7 +75,7 @@ Uninstallation
 To remove the script and service completely:
 
 ```bash
-sudo xui-sync uninstall
+sudo bash /opt/xui_sync_script/install.sh uninstall
 ```
 
 
