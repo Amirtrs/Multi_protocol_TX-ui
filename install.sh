@@ -1,5 +1,5 @@
 #!/bin/bash
-
+ 
 # --- Installation Script Settings ---
 REPO_URL="https://raw.githubusercontent.com/Amirtrs/Multi_protocol_TX-ui/main"
 INSTALL_DIR="/opt/xui_sync_script"
