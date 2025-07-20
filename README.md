@@ -27,3 +27,26 @@ To install the X-UI SubId Traffic Sync service, run the following command as `ro
 
 ```bash
 sudo bash -c "$(curl -Ls [https://raw.githubusercontent.com/Amirtrs/Multi_protocol_TX-ui/main/install.sh](https://raw.githubusercontent.com/Amirtrs/Multi_protocol_TX-ui/main/install.sh))" install
+
+```
+
+## Usage
+
+After installation, you can manage the service using the `xui-sync` command. Since the service operates with root privileges, prefix all commands with `sudo`.
+
+### Check Service Status
+
+To check whether the sync service is active and running properly:
+
+```bash
+sudo xui-sync status
+```
+
+
+View Live Logs
+To monitor the script's real-time activity and verify synchronization cycles:
+
+```bash
+sudo xui-sync logs
+```
+Press Ctrl + C to exit the log stream.
